@@ -32,8 +32,8 @@ const FormAutoFill = new Vue({
   methods: {
     // ID 限填 4 碼
     limitIdLen(val) {
-      if(val.length > 4) {
-        return this.id =  this.id.slice(0, 4);
+      if(val.length > 5) {
+        return this.id =  this.id.slice(0, 5);
       }
     },
     // 送出表單
