@@ -54,7 +54,7 @@ const FormAutoFill = new Vue({
   watch: {
     id: function(val) {
       // ID 輸入到 4 碼就查詢資料
-      if(val.length === 4) {
+      if(val.length === 5) {
 
         // this.persons 裡沒這筆資料，才 POST
         if(this.persons[this.id] === undefined) {
